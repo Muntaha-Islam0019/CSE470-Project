@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
+// This class is going to have all the resources for the API
+
 @RestController
 @RequestMapping(path = "api/v1/student")
 public class StudentController {
