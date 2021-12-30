@@ -9,9 +9,7 @@ public class Student {
 
     // The above written annotations and the below written annotations
     // generate a create table command by mapping the Student class. The
-    // primary key will be id and the others will be mapped too. After this step,
-    // I'll add the database and run the application, so the command will create a
-    // table in the database.
+    // primary key will be id and the others will be mapped too.
     @Id
     @SequenceGenerator(
             name = "student_sequence",
